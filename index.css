@@ -1,0 +1,96 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.card {
+  flex-direction: row;
+width: 55%;
+margin: 3% 20%;
+border-radius: 1rem;
+padding-right: 1rem;
+}
+.card .card-img-top{
+  width: 50%;
+  object-fit: cover;
+  border-radius: 1rem 0 0 1rem ;
+
+}
+
+.card-body{
+  padding: 0.5rem 0 0.5rem 2rem;
+  width: 50%;
+}
+
+.card-title, .pricing{
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+}
+.card-title {
+color:  hsl(212, 21%, 14%);
+}
+p{
+  color:hsl(228, 12%, 48%);
+}
+
+.heading{
+  letter-spacing: .2rem;
+  font-weight: 500;
+}
+.price{
+  position: relative;
+}
+
+.pricing {
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.old-pricing {
+text-decoration: line-through;
+position: absolute;
+top: 1rem;
+}
+
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: 1rem;
+padding:0.5rem 1.5rem;
+margin: 0.3rem 0;
+color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width:815px ) {
+
+  body{
+    font-size: 8px;
+  }
+
+  .pricing {
+    color: hsl(158, 36%, 37%);
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .old-pricing {
+
+  top: 0;
+  right: auto;
+  }
+
+}
+
+
+@media screen and (max-width:768px ){
+  btn {
+
+    font-weight: 500;
+    font-size: 0.5rem;
+  margin: 0.3rem 0;
+  color: hsl(0, 0%, 100%);
+  }
+}
